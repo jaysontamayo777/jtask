@@ -20,12 +20,12 @@
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
-    "sails": "~0.12.14",
     "sails-disk": "~0.10.9"
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "lift": "node ./tasks/register/default.js"
   },
   "main": "app.js",
   "repository": {
